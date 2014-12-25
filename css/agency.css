@@ -260,12 +260,24 @@ fieldset[disabled] .btn-xl.active {
         font-size: 1.5em;
     }
 }
+.resim{
+    text-align: center;
+    color: #fed136;
+    background-attachment: scroll;
+    background-image: url(../img/law.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    background-size: contain;
+    -o-background-size: contain;
 
+}
 header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url(../img/header-bg.jpg);
+    /*background-image: url(../img/law.png);*/
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -856,7 +868,11 @@ img::selection {
 img::-moz-selection {
     background: 0 0;
 }
-
+.modal-list{
+   list-style:none;
+   
+   text-align:left;
+}
 body {
     webkit-tap-highlight-color: #fed136;
 }
