@@ -100,12 +100,12 @@
     </header>
 
     <!-- About Section -->
-    <section id="about">
+    <section id="about" itemscope itemtype="http://data-vocabulary.org/Person">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">Hakkimizda</h2>
-                    <h3 class="section-subheading text-muted">Avukat Baran Dogan</h3>
+                    <h3 class="section-subheading text-muted"> <span itemprop="jobTitle">Avukat</span>  <span itemprop="name">Baran Dogan</span></h3>
                 </div>
             </div>
             <div class="row">
@@ -338,12 +338,18 @@
                     <h3 class="section-subheading text-muted">Asağıdaki formu doldurarak hızlı bir şekilde iletişime geçebilirsiniz</h3>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-lg-5">
-                    <span style="color:white;">YÖNTEM HUKUK BÜROSU<br><br>
-                    M.Fevzi Çakmak cd. 1.Sok No:9 Daire:6 Şirinevler Meydanı
-                    Şirinevler/Bahçelievler/İstanbul<br>
-                    <a href="tel:02126521544">Tel     :0.212.652 15 44</a><br>
+            <div class="row" >
+                <div class="col-lg-5" itemscope itemtype="http://schema.org/Person">
+                    <span style="color:white;"><span itemprop="jobTitle">Avukat</span>  <span itemprop="name">Baran Dogan</span><br><br>
+                   <span id="baran-address" itemscope itemtype="http://schema.org/PostalAddress"> 
+                        <span itemprop="streetAddress">M.Fevzi Çakmak cd. 1.Sok 
+                            No:9 Daire:6
+                        </span> 
+                         Şirinevler Meydanı
+                        Şirinevler/<span itemprop="addressLocality">Bahçelievler</span>/ <span itemprop="addressRegion">İstanbul</span>
+                    </span>
+                    <br>
+                    <a href="tel:02126521544">Tel :<span itemprop="telephone">0.212.652 15 44</span></a><br>
                     Fax :0.212.652 06 03 
                     <span>
 
