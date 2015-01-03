@@ -265,7 +265,7 @@ fieldset[disabled] .btn-xl.active {
     color: #1ca8c3;
     background-attachment: scroll;
     /*background-color: transparent;*/
-    background-image: url(../img/law.png);
+    background-image: url(../img/law_burned.png);
     background-position: center center;
     background-repeat: no-repeat;
     -webkit-background-size: contain;
@@ -281,7 +281,7 @@ fieldset[disabled] .btn-xl.active {
     color: #1ca8c3;
     background-attachment: scroll;
     /*background-color: transparent;*/
-    background-image: url(../img/baro-logo.jpeg);
+    background-image: url(../img/baro-logo_burned.png);
     background-position: center center;
     background-repeat: no-repeat;
     -webkit-background-size: contain;
